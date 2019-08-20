@@ -503,6 +503,7 @@ c10/CMakeFiles/c10.dir/util/intrusive_ptr.cpp.o: c10/CMakeFiles/c10.dir/flags.ma
 c10/CMakeFiles/c10.dir/util/intrusive_ptr.cpp.o: ../c10/util/intrusive_ptr.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fivosts/Repos/pytorch/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object c10/CMakeFiles/c10.dir/util/intrusive_ptr.cpp.o"
 	cd /home/fivosts/Repos/pytorch/build/c10 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c10.dir/util/intrusive_ptr.cpp.o -c /home/fivosts/Repos/pytorch/c10/util/intrusive_ptr.cpp
+	cd /home/fivosts/Repos/pytorch/build/c10 && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -emit-llvm -o CMakeFiles/c10.dir/util/intrusive_ptr.cpp.bc -c /home/fivosts/Repos/pytorch/c10/util/intrusive_ptr.cpp
 
 c10/CMakeFiles/c10.dir/util/intrusive_ptr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c10.dir/util/intrusive_ptr.cpp.i"
