@@ -589,6 +589,7 @@ c10_OBJECTS = \
 "CMakeFiles/c10.dir/util/flags_use_gflags.cpp.o" \
 "CMakeFiles/c10.dir/util/flags_use_no_gflags.cpp.o" \
 "CMakeFiles/c10.dir/util/intrusive_ptr.cpp.o" \
+"CMakeFiles/c10.dir/util/intrusive_ptr.cpp.bc" \
 "CMakeFiles/c10.dir/util/numa.cpp.o" \
 "CMakeFiles/c10.dir/util/thread_name.cpp.o" \
 "CMakeFiles/c10.dir/util/typeid.cpp.o"
@@ -631,6 +632,7 @@ lib/libc10.so: c10/CMakeFiles/c10.dir/util/UniqueVoidPtr.cpp.o
 lib/libc10.so: c10/CMakeFiles/c10.dir/util/flags_use_gflags.cpp.o
 lib/libc10.so: c10/CMakeFiles/c10.dir/util/flags_use_no_gflags.cpp.o
 lib/libc10.so: c10/CMakeFiles/c10.dir/util/intrusive_ptr.cpp.o
+lib/libc10.so: c10/CMakeFiles/c10.dir/util/intrusive_ptr.cpp.bc
 lib/libc10.so: c10/CMakeFiles/c10.dir/util/numa.cpp.o
 lib/libc10.so: c10/CMakeFiles/c10.dir/util/thread_name.cpp.o
 lib/libc10.so: c10/CMakeFiles/c10.dir/util/typeid.cpp.o
