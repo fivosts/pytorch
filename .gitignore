@@ -177,7 +177,6 @@ docs/source/scripts/activation_images/
 ## Caffe2
 
 # build, distribute, and bins (+ python proto bindings)
-build
 build_host_protoc
 build_android
 build_ios
@@ -187,8 +186,8 @@ build_ios
 distribute/*
 *.testbin
 *.bin
-cmake_build
-.cmake_build
+#cmake_build
+#.cmake_build
 gen
 .setuptools-cmake-build
 .pytest_cache

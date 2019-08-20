@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libCaffe2_perfkernels_avx.a  CMakeFiles/Caffe2_perfkernels_avx.dir/adagrad_avx.cc.o CMakeFiles/Caffe2_perfkernels_avx.dir/common_avx.cc.o CMakeFiles/Caffe2_perfkernels_avx.dir/typed_axpy_avx.cc.o
+/usr/bin/ranlib ../../lib/libCaffe2_perfkernels_avx.a

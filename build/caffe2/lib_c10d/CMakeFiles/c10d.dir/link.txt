@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libc10d.a  CMakeFiles/c10d.dir/FileStore.cpp.o CMakeFiles/c10d.dir/ProcessGroup.cpp.o CMakeFiles/c10d.dir/Store.cpp.o CMakeFiles/c10d.dir/PrefixStore.cpp.o CMakeFiles/c10d.dir/TCPStore.cpp.o CMakeFiles/c10d.dir/Utils.cpp.o CMakeFiles/c10d.dir/ProcessGroupMPI.cpp.o CMakeFiles/c10d.dir/ProcessGroupGloo.cpp.o
+/usr/bin/ranlib ../../lib/libc10d.a

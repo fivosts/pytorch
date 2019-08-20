@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libcaffe2_protos.a  proto/CMakeFiles/Caffe2_PROTO.dir/caffe2.pb.cc.o proto/CMakeFiles/Caffe2_PROTO.dir/caffe2_legacy.pb.cc.o proto/CMakeFiles/Caffe2_PROTO.dir/hsm.pb.cc.o proto/CMakeFiles/Caffe2_PROTO.dir/metanet.pb.cc.o proto/CMakeFiles/Caffe2_PROTO.dir/predictor_consts.pb.cc.o proto/CMakeFiles/Caffe2_PROTO.dir/prof_dag.pb.cc.o proto/CMakeFiles/Caffe2_PROTO.dir/torch.pb.cc.o
+/usr/bin/ranlib ../lib/libcaffe2_protos.a

@@ -1,0 +1,2096 @@
+The system is: Linux - 4.17.0-kali1-amd64 - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/fivosts/Repos/pytorch/build/CMakeFiles/3.13.4/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/fivosts/Repos/pytorch/build/CMakeFiles/3.13.4/CompilerIdC/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8350b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8350b.dir/build.make CMakeFiles/cmTC_8350b.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8350b.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_8350b.dir/testCXXCompiler.cxx.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_8350b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8350b.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_8350b.dir/testCXXCompiler.cxx.o  -o cmTC_8350b 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_929cf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_929cf.dir/build.make CMakeFiles/cmTC_929cf.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_929cf.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_929cf.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_929cf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_929cf.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_929cf.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_929cf 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 8.3.0-2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 8.3.0 (Debian 8.3.0-2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_929cf' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccM4cfed.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_929cf /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_929cf.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_929cf' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_929cf/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_929cf.dir/build.make CMakeFiles/cmTC_929cf.dir/build]
+  ignore line: [make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_929cf.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_929cf.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_929cf]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_929cf.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_929cf.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_929cf ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 8.3.0-2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (Debian 8.3.0-2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_929cf' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccM4cfed.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_929cf /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_929cf.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccM4cfed.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_929cf] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..]
+    arg [CMakeFiles/cmTC_929cf.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8] ==> [/usr/lib/gcc/x86_64-linux-gnu/8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++2a] compiler features compiled with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_07b9a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_07b9a.dir/build.make CMakeFiles/cmTC_07b9a.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_07b9a.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++2a -o CMakeFiles/cmTC_07b9a.dir/feature_tests.cxx.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_07b9a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07b9a.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_07b9a.dir/feature_tests.cxx.o  -o cmTC_07b9a 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++17] compiler features compiled with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bbbfb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bbbfb.dir/build.make CMakeFiles/cmTC_bbbfb.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bbbfb.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_bbbfb.dir/feature_tests.cxx.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_bbbfb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbbfb.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_bbbfb.dir/feature_tests.cxx.o  -o cmTC_bbbfb 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6ba19/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6ba19.dir/build.make CMakeFiles/cmTC_6ba19.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6ba19.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_6ba19.dir/feature_tests.cxx.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_6ba19
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ba19.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_6ba19.dir/feature_tests.cxx.o  -o cmTC_6ba19 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_18343/fast"
+/usr/bin/make -f CMakeFiles/cmTC_18343.dir/build.make CMakeFiles/cmTC_18343.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_18343.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_18343.dir/feature_tests.cxx.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_18343
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18343.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_18343.dir/feature_tests.cxx.o  -o cmTC_18343 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_92db6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_92db6.dir/build.make CMakeFiles/cmTC_92db6.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_92db6.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_92db6.dir/feature_tests.cxx.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_92db6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92db6.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_92db6.dir/feature_tests.cxx.o  -o cmTC_92db6 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5a58d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5a58d.dir/build.make CMakeFiles/cmTC_5a58d.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5a58d.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5a58d.dir/testCCompiler.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_5a58d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a58d.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_5a58d.dir/testCCompiler.c.o  -o cmTC_5a58d 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2a06e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2a06e.dir/build.make CMakeFiles/cmTC_2a06e.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2a06e.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2a06e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_2a06e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a06e.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_2a06e.dir/CMakeCCompilerABI.c.o  -o cmTC_2a06e 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 8.3.0-2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 8.3.0 (Debian 8.3.0-2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2a06e' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccooG3Lq.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_2a06e /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_2a06e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2a06e' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2a06e/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_2a06e.dir/build.make CMakeFiles/cmTC_2a06e.dir/build]
+  ignore line: [make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_2a06e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_2a06e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_2a06e]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a06e.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_2a06e.dir/CMakeCCompilerABI.c.o  -o cmTC_2a06e ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 8.3.0-2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (Debian 8.3.0-2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2a06e' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccooG3Lq.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_2a06e /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_2a06e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccooG3Lq.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_2a06e] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..]
+    arg [CMakeFiles/cmTC_2a06e.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8] ==> [/usr/lib/gcc/x86_64-linux-gnu/8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7e02d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7e02d.dir/build.make CMakeFiles/cmTC_7e02d.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e02d.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_7e02d.dir/feature_tests.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_7e02d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e02d.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_7e02d.dir/feature_tests.c.o  -o cmTC_7e02d 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1229e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1229e.dir/build.make CMakeFiles/cmTC_1229e.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1229e.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_1229e.dir/feature_tests.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1229e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1229e.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_1229e.dir/feature_tests.c.o  -o cmTC_1229e 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_12aee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_12aee.dir/build.make CMakeFiles/cmTC_12aee.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12aee.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_12aee.dir/feature_tests.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_12aee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12aee.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_12aee.dir/feature_tests.c.o  -o cmTC_12aee 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Performing C SOURCE FILE Test COMPILER_WORKS succeeded with the following compile output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f3db0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f3db0.dir/build.make CMakeFiles/cmTC_f3db0.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f3db0.dir/src.c.o
+/usr/bin/cc   -DCOMPILER_WORKS   -o CMakeFiles/cmTC_f3db0.dir/src.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f3db0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3db0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCOMPILER_WORKS    CMakeFiles/cmTC_f3db0.dir/src.c.o  -o cmTC_f3db0 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+  int main() { return 0; }
+  
+Performing C++ SOURCE FILE Test SUPPORT_GLIBCXX_USE_C99 succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_91c90/fast"
+/usr/bin/make -f CMakeFiles/cmTC_91c90.dir/build.make CMakeFiles/cmTC_91c90.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_91c90.dir/src.cxx.o
+/usr/bin/c++    -DSUPPORT_GLIBCXX_USE_C99 -std=c++11   -o CMakeFiles/cmTC_91c90.dir/src.cxx.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_91c90
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91c90.dir/link.txt --verbose=1
+/usr/bin/c++   -DSUPPORT_GLIBCXX_USE_C99 -std=c++11    CMakeFiles/cmTC_91c90.dir/src.cxx.o  -o cmTC_91c90 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <cmath>
+  #include <string>
+
+  int main() {
+    int a = std::isinf(3.0);
+    int b = std::isnan(0.0);
+    std::string s = std::to_string(1);
+
+    return 0;
+    }
+Performing C++ SOURCE FILE Test CAFFE2_EXCEPTION_PTR_SUPPORTED succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_11c2c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_11c2c.dir/build.make CMakeFiles/cmTC_11c2c.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_11c2c.dir/src.cxx.o
+/usr/bin/c++    -DCAFFE2_EXCEPTION_PTR_SUPPORTED -std=c++11   -o CMakeFiles/cmTC_11c2c.dir/src.cxx.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_11c2c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11c2c.dir/link.txt --verbose=1
+/usr/bin/c++   -DCAFFE2_EXCEPTION_PTR_SUPPORTED -std=c++11    CMakeFiles/cmTC_11c2c.dir/src.cxx.o  -o cmTC_11c2c 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <string>
+    #include <exception>
+    int main(int argc, char** argv) {
+      std::exception_ptr eptr;
+      try {
+          std::string().at(1);
+      } catch(...) {
+          eptr = std::current_exception();
+      }
+    }
+Performing C++ SOURCE FILE Test CAFFE2_IS_NUMA_AVAILABLE succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_59a2c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_59a2c.dir/build.make CMakeFiles/cmTC_59a2c.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_59a2c.dir/src.cxx.o
+/usr/bin/c++    -DCAFFE2_IS_NUMA_AVAILABLE -std=c++11   -o CMakeFiles/cmTC_59a2c.dir/src.cxx.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_59a2c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59a2c.dir/link.txt --verbose=1
+/usr/bin/c++   -DCAFFE2_IS_NUMA_AVAILABLE -std=c++11    CMakeFiles/cmTC_59a2c.dir/src.cxx.o  -o cmTC_59a2c 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <numa.h>
+    #include <numaif.h>
+
+    int main(int argc, char** argv) {
+    }
+Performing C++ SOURCE FILE Test CAFFE2_COMPILER_SUPPORTS_AVX2_EXTENSIONS succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a593d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a593d.dir/build.make CMakeFiles/cmTC_a593d.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a593d.dir/src.cxx.o
+/usr/bin/c++    -Wno-deprecated -DCAFFE2_COMPILER_SUPPORTS_AVX2_EXTENSIONS -mavx2   -o CMakeFiles/cmTC_a593d.dir/src.cxx.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a593d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a593d.dir/link.txt --verbose=1
+/usr/bin/c++   -Wno-deprecated -DCAFFE2_COMPILER_SUPPORTS_AVX2_EXTENSIONS -mavx2    CMakeFiles/cmTC_a593d.dir/src.cxx.o  -o cmTC_a593d 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <immintrin.h>
+     int main() {
+       __m256i a, b;
+       a = _mm256_set1_epi8 (1);
+       b = a;
+       _mm256_add_epi8 (a,a);
+       __m256i x;
+       _mm256_extract_epi64(x, 0); // we rely on this in our AVX2 code
+       return 0;
+     }
+Performing C++ SOURCE FILE Test CAFFE2_COMPILER_SUPPORTS_AVX512_EXTENSIONS succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eaf49/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eaf49.dir/build.make CMakeFiles/cmTC_eaf49.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_eaf49.dir/src.cxx.o
+/usr/bin/c++    -Wno-deprecated -DCAFFE2_COMPILER_SUPPORTS_AVX512_EXTENSIONS -mavx512f -mavx512dq -mavx512vl   -o CMakeFiles/cmTC_eaf49.dir/src.cxx.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_eaf49
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eaf49.dir/link.txt --verbose=1
+/usr/bin/c++   -Wno-deprecated -DCAFFE2_COMPILER_SUPPORTS_AVX512_EXTENSIONS -mavx512f -mavx512dq -mavx512vl    CMakeFiles/cmTC_eaf49.dir/src.cxx.o  -o cmTC_eaf49 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#if defined(_MSC_VER)
+     #include <intrin.h>
+     #else
+     #include <immintrin.h>
+     #endif
+     // check avx512f
+     __m512 addConstant(__m512 arg) {
+       return _mm512_add_ps(arg, _mm512_set1_ps(1.f));
+     }
+     // check avx512dq
+     __m512 andConstant(__m512 arg) {
+       return _mm512_and_ps(arg, _mm512_set1_ps(1.f));
+     }
+     int main() {
+       __m512i a = _mm512_set1_epi32(1);
+       __m256i ymm = _mm512_extracti64x4_epi64(a, 0);
+       ymm = _mm256_abs_epi64(ymm); // check avx512vl
+       __mmask16 m = _mm512_cmp_epi32_mask(a, a, _MM_CMPINT_EQ);
+       __m512i r = _mm512_andnot_si512(a, a);
+     }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_HIDDEN_VISIBILITY succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_acbe4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_acbe4.dir/build.make CMakeFiles/cmTC_acbe4.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_acbe4.dir/src.cxx.o
+/usr/bin/c++    -Wno-deprecated -DCOMPILER_SUPPORTS_HIDDEN_VISIBILITY   -fvisibility=hidden -o CMakeFiles/cmTC_acbe4.dir/src.cxx.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_acbe4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_acbe4.dir/link.txt --verbose=1
+/usr/bin/c++   -Wno-deprecated -DCOMPILER_SUPPORTS_HIDDEN_VISIBILITY    CMakeFiles/cmTC_acbe4.dir/src.cxx.o  -o cmTC_acbe4 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_HIDDEN_INLINE_VISIBILITY succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a73da/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a73da.dir/build.make CMakeFiles/cmTC_a73da.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a73da.dir/src.cxx.o
+/usr/bin/c++    -Wno-deprecated -DCOMPILER_SUPPORTS_HIDDEN_INLINE_VISIBILITY   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_a73da.dir/src.cxx.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a73da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a73da.dir/link.txt --verbose=1
+/usr/bin/c++   -Wno-deprecated -DCOMPILER_SUPPORTS_HIDDEN_INLINE_VISIBILITY    CMakeFiles/cmTC_a73da.dir/src.cxx.o  -o cmTC_a73da 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_RDYNAMIC succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_67859/fast"
+/usr/bin/make -f CMakeFiles/cmTC_67859.dir/build.make CMakeFiles/cmTC_67859.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_67859.dir/src.cxx.o
+/usr/bin/c++    -Wno-deprecated -fvisibility-inlines-hidden -DCOMPILER_SUPPORTS_RDYNAMIC   -rdynamic -o CMakeFiles/cmTC_67859.dir/src.cxx.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_67859
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67859.dir/link.txt --verbose=1
+/usr/bin/c++   -Wno-deprecated -fvisibility-inlines-hidden -DCOMPILER_SUPPORTS_RDYNAMIC    CMakeFiles/cmTC_67859.dir/src.cxx.o  -o cmTC_67859 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2753a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2753a.dir/build.make CMakeFiles/cmTC_2753a.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2753a.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_2753a.dir/CheckIncludeFile.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2753a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2753a.dir/link.txt --verbose=1
+/usr/bin/cc     -rdynamic  CMakeFiles/cmTC_2753a.dir/CheckIncludeFile.c.o  -o cmTC_2753a 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_07d34/fast"
+/usr/bin/make -f CMakeFiles/cmTC_07d34.dir/build.make CMakeFiles/cmTC_07d34.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_07d34.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE   -o CMakeFiles/cmTC_07d34.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_07d34
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07d34.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_07d34.dir/CheckFunctionExists.c.o  -o cmTC_07d34 -lpthread 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fe918/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fe918.dir/build.make CMakeFiles/cmTC_fe918.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fe918.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_fe918.dir/CheckIncludeFile.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fe918
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe918.dir/link.txt --verbose=1
+/usr/bin/cc     -rdynamic  CMakeFiles/cmTC_fe918.dir/CheckIncludeFile.c.o  -o cmTC_fe918 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d4a8d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d4a8d.dir/build.make CMakeFiles/cmTC_d4a8d.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d4a8d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d4a8d.dir/CheckIncludeFile.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d4a8d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4a8d.dir/link.txt --verbose=1
+/usr/bin/cc     -rdynamic  CMakeFiles/cmTC_d4a8d.dir/CheckIncludeFile.c.o  -o cmTC_d4a8d 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_256a1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_256a1.dir/build.make CMakeFiles/cmTC_256a1.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_256a1.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_256a1.dir/CheckIncludeFile.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_256a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_256a1.dir/link.txt --verbose=1
+/usr/bin/cc     -rdynamic  CMakeFiles/cmTC_256a1.dir/CheckIncludeFile.c.o  -o cmTC_256a1 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of void* passed with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1ce84/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1ce84.dir/build.make CMakeFiles/cmTC_1ce84.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1ce84.dir/SIZE_OF_VOIDP.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1ce84.dir/SIZE_OF_VOIDP.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CheckTypeSize/SIZE_OF_VOIDP.c
+Linking C executable cmTC_1ce84
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ce84.dir/link.txt --verbose=1
+/usr/bin/cc     -rdynamic  CMakeFiles/cmTC_1ce84.dir/SIZE_OF_VOIDP.c.o  -o cmTC_1ce84 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+cc (Debian 8.3.0-2) 8.3.0
+Copyright (C) 2018 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_AVX512 succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8f1cf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8f1cf.dir/build.make CMakeFiles/cmTC_8f1cf.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8f1cf.dir/src.cxx.o
+/usr/bin/c++    -Wno-deprecated -fvisibility-inlines-hidden -DCOMPILER_SUPPORTS_AVX512   -mavx512f -o CMakeFiles/cmTC_8f1cf.dir/src.cxx.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8f1cf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f1cf.dir/link.txt --verbose=1
+/usr/bin/c++   -Wno-deprecated -fvisibility-inlines-hidden -DCOMPILER_SUPPORTS_AVX512   -rdynamic  CMakeFiles/cmTC_8f1cf.dir/src.cxx.o  -o cmTC_8f1cf 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Detecting C OpenMP compiler ABI info compiled with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0d405/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0d405.dir/build.make CMakeFiles/cmTC_0d405.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0d405.dir/OpenMPTryFlag.c.o
+/usr/bin/cc   -fopenmp -v   -o CMakeFiles/cmTC_0d405.dir/OpenMPTryFlag.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 8.3.0-2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 8.3.0 (Debian 8.3.0-2) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_0d405.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+ /usr/lib/gcc/x86_64-linux-gnu/8/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D_REENTRANT /home/fivosts/Repos/pytorch/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_0d405.dir/OpenMPTryFlag.c.o -version -fopenmp -o /tmp/cc59zQtC.s
+GNU C17 (Debian 8.3.0-2) version 8.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP
+
+warning: MPFR header version 4.0.2 differs from library version 4.0.2-rc1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/8/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/8/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Debian 8.3.0-2) version 8.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP
+
+warning: MPFR header version 4.0.2 differs from library version 4.0.2-rc1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: a3f8e155dd548e68f79ae448f79c4dcc
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_0d405.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+ as -v --64 -o CMakeFiles/cmTC_0d405.dir/OpenMPTryFlag.c.o /tmp/cc59zQtC.s
+GNU assembler version 2.31.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.31.1
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_0d405.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+Linking C executable cmTC_0d405
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d405.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -v   -rdynamic  CMakeFiles/cmTC_0d405.dir/OpenMPTryFlag.c.o  -o cmTC_0d405 -v 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 8.3.0-2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 8.3.0 (Debian 8.3.0-2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
+Reading specs from /usr/lib/gcc/x86_64-linux-gnu/8/libgomp.spec
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_0d405' '-v' '-mtune=generic' '-march=x86-64' '-pthread'
+ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfgcfTE.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_0d405 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/8/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_0d405.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/8/crtoffloadend.o
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_0d405' '-v' '-mtune=generic' '-march=x86-64' '-pthread'
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_0d405/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_0d405.dir/build.make CMakeFiles/cmTC_0d405.dir/build]
+  ignore line: [make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_0d405.dir/OpenMPTryFlag.c.o]
+  ignore line: [/usr/bin/cc   -fopenmp -v   -o CMakeFiles/cmTC_0d405.dir/OpenMPTryFlag.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 8.3.0-2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (Debian 8.3.0-2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_0d405.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D_REENTRANT /home/fivosts/Repos/pytorch/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_0d405.dir/OpenMPTryFlag.c.o -version -fopenmp -o /tmp/cc59zQtC.s]
+  ignore line: [GNU C17 (Debian 8.3.0-2) version 8.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.0.2 differs from library version 4.0.2-rc1.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/include-fixed]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Debian 8.3.0-2) version 8.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.0.2 differs from library version 4.0.2-rc1.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: a3f8e155dd548e68f79ae448f79c4dcc]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_0d405.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_0d405.dir/OpenMPTryFlag.c.o /tmp/cc59zQtC.s]
+  ignore line: [GNU assembler version 2.31.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.31.1]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_0d405.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [Linking C executable cmTC_0d405]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d405.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -fopenmp -v   -rdynamic  CMakeFiles/cmTC_0d405.dir/OpenMPTryFlag.c.o  -o cmTC_0d405 -v ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 8.3.0-2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (Debian 8.3.0-2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/8/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_0d405' '-v' '-mtune=generic' '-march=x86-64' '-pthread']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfgcfTE.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_0d405 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/8/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_0d405.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/8/crtoffloadend.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccfgcfTE.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_0d405] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtoffloadbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..]
+    arg [CMakeFiles/cmTC_0d405.dir/OpenMPTryFlag.c.o] ==> ignore
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtoffloadend.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8] ==> [/usr/lib/gcc/x86_64-linux-gnu/8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> [/usr/lib]
+  implicit libs: [gomp;gcc;gcc_s;pthread;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX OpenMP compiler ABI info compiled with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8f868/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8f868.dir/build.make CMakeFiles/cmTC_8f868.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8f868.dir/OpenMPTryFlag.cpp.o
+/usr/bin/c++    -Wno-deprecated -fvisibility-inlines-hidden -fopenmp -v   -o CMakeFiles/cmTC_8f868.dir/OpenMPTryFlag.cpp.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 8.3.0-2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 8.3.0 (Debian 8.3.0-2) 
+COLLECT_GCC_OPTIONS='-Wno-deprecated' '-fvisibility-inlines-hidden' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_8f868.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /usr/lib/gcc/x86_64-linux-gnu/8/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/fivosts/Repos/pytorch/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_8f868.dir/OpenMPTryFlag.cpp.o -Wno-deprecated -version -fvisibility-inlines-hidden -fopenmp -o /tmp/ccOj5PgG.s
+GNU C++14 (Debian 8.3.0-2) version 8.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP
+
+warning: MPFR header version 4.0.2 differs from library version 4.0.2-rc1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/8"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/8
+ /usr/include/x86_64-linux-gnu/c++/8
+ /usr/include/c++/8/backward
+ /usr/lib/gcc/x86_64-linux-gnu/8/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/8/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Debian 8.3.0-2) version 8.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP
+
+warning: MPFR header version 4.0.2 differs from library version 4.0.2-rc1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: f5adab376cb5c9d799a4d9bc9af561d6
+COLLECT_GCC_OPTIONS='-Wno-deprecated' '-fvisibility-inlines-hidden' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_8f868.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ as -v --64 -o CMakeFiles/cmTC_8f868.dir/OpenMPTryFlag.cpp.o /tmp/ccOj5PgG.s
+GNU assembler version 2.31.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.31.1
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-Wno-deprecated' '-fvisibility-inlines-hidden' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_8f868.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+Linking CXX executable cmTC_8f868
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f868.dir/link.txt --verbose=1
+/usr/bin/c++   -Wno-deprecated -fvisibility-inlines-hidden -fopenmp -v   -rdynamic  CMakeFiles/cmTC_8f868.dir/OpenMPTryFlag.cpp.o  -o cmTC_8f868 -v 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 8.3.0-2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 8.3.0 (Debian 8.3.0-2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
+Reading specs from /usr/lib/gcc/x86_64-linux-gnu/8/libgomp.spec
+COLLECT_GCC_OPTIONS='-Wno-deprecated' '-fvisibility-inlines-hidden' '-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_8f868' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTxoU3I.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_8f868 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/8/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_8f868.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/8/crtoffloadend.o
+COLLECT_GCC_OPTIONS='-Wno-deprecated' '-fvisibility-inlines-hidden' '-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_8f868' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8f868/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8f868.dir/build.make CMakeFiles/cmTC_8f868.dir/build]
+  ignore line: [make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_8f868.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [/usr/bin/c++    -Wno-deprecated -fvisibility-inlines-hidden -fopenmp -v   -o CMakeFiles/cmTC_8f868.dir/OpenMPTryFlag.cpp.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 8.3.0-2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (Debian 8.3.0-2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wno-deprecated' '-fvisibility-inlines-hidden' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_8f868.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/fivosts/Repos/pytorch/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_8f868.dir/OpenMPTryFlag.cpp.o -Wno-deprecated -version -fvisibility-inlines-hidden -fopenmp -o /tmp/ccOj5PgG.s]
+  ignore line: [GNU C++14 (Debian 8.3.0-2) version 8.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.0.2 differs from library version 4.0.2-rc1.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/8"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/8]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/8]
+  ignore line: [ /usr/include/c++/8/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/include-fixed]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Debian 8.3.0-2) version 8.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.0.2 differs from library version 4.0.2-rc1.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: f5adab376cb5c9d799a4d9bc9af561d6]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wno-deprecated' '-fvisibility-inlines-hidden' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_8f868.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_8f868.dir/OpenMPTryFlag.cpp.o /tmp/ccOj5PgG.s]
+  ignore line: [GNU assembler version 2.31.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.31.1]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wno-deprecated' '-fvisibility-inlines-hidden' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_8f868.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [Linking CXX executable cmTC_8f868]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f868.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++   -Wno-deprecated -fvisibility-inlines-hidden -fopenmp -v   -rdynamic  CMakeFiles/cmTC_8f868.dir/OpenMPTryFlag.cpp.o  -o cmTC_8f868 -v ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 8.3.0-2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (Debian 8.3.0-2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/8/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wno-deprecated' '-fvisibility-inlines-hidden' '-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_8f868' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTxoU3I.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_8f868 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/8/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_8f868.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/8/crtoffloadend.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccTxoU3I.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_8f868] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtoffloadbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..]
+    arg [CMakeFiles/cmTC_8f868.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtoffloadend.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8] ==> [/usr/lib/gcc/x86_64-linux-gnu/8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gomp;gcc_s;gcc;pthread;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C++ SOURCE FILE Test __CxxFlag__fmerge_all_constants succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7125f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7125f.dir/build.make CMakeFiles/cmTC_7125f.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7125f.dir/src.cxx.o
+/usr/bin/c++    -Wno-deprecated -fvisibility-inlines-hidden -fopenmp -D__CxxFlag__fmerge_all_constants   -fmerge-all-constants -o CMakeFiles/cmTC_7125f.dir/src.cxx.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7125f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7125f.dir/link.txt --verbose=1
+/usr/bin/c++   -Wno-deprecated -fvisibility-inlines-hidden -fopenmp -D__CxxFlag__fmerge_all_constants   -rdynamic   CMakeFiles/cmTC_7125f.dir/src.cxx.o  -o cmTC_7125f 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if the include file cpuid.h exists passed with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eb808/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eb808.dir/build.make CMakeFiles/cmTC_eb808.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eb808.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fopenmp  -fPIE   -o CMakeFiles/cmTC_eb808.dir/CheckIncludeFile.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_eb808
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb808.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp    -rdynamic -pthread  CMakeFiles/cmTC_eb808.dir/CheckIncludeFile.c.o  -o cmTC_eb808 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_GCC_GET_CPUID succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b3642/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b3642.dir/build.make CMakeFiles/cmTC_b3642.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3642.dir/src.c.o
+/usr/bin/cc   -fopenmp -DHAVE_GCC_GET_CPUID -fPIE   -o CMakeFiles/cmTC_b3642.dir/src.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b3642
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3642.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DHAVE_GCC_GET_CPUID   -rdynamic -pthread  CMakeFiles/cmTC_b3642.dir/src.c.o  -o cmTC_b3642 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <cpuid.h>
+          int main()
+          {
+              unsigned int eax, ebx, ecx, edx;
+              return __get_cpuid(0, &eax, &ebx, &ecx, &edx);
+          }
+Performing C SOURCE FILE Test NO_GCC_EBX_FPIC_BUG succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e6897/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e6897.dir/build.make CMakeFiles/cmTC_e6897.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6897.dir/src.c.o
+/usr/bin/cc   -fopenmp -DNO_GCC_EBX_FPIC_BUG -fPIE   -o CMakeFiles/cmTC_e6897.dir/src.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e6897
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6897.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DNO_GCC_EBX_FPIC_BUG   -rdynamic -pthread  CMakeFiles/cmTC_e6897.dir/src.c.o  -o cmTC_e6897 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <stdint.h>
+      static inline void cpuid(uint32_t *eax, uint32_t *ebx,
+                               uint32_t *ecx, uint32_t *edx)
+      {
+        uint32_t a = *eax, b, c = *ecx, d;
+        asm volatile ( "cpuid" : "+a"(a), "=b"(b), "+c"(c), "=d"(d) );
+        *eax = a; *ebx = b; *ecx = c; *edx = d;
+      }
+      int main() {
+        uint32_t a,b,c,d;
+        cpuid(&a, &b, &c, &d);
+        return 0;
+      }
+Performing C SOURCE FILE Test C_HAS_AVX_2 succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_10a33/fast"
+/usr/bin/make -f CMakeFiles/cmTC_10a33.dir/build.make CMakeFiles/cmTC_10a33.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_10a33.dir/src.c.o
+/usr/bin/cc   -fopenmp -DC_HAS_AVX_2 -mavx -fPIE   -o CMakeFiles/cmTC_10a33.dir/src.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_10a33
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10a33.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DC_HAS_AVX_2 -mavx   -rdynamic -pthread  CMakeFiles/cmTC_10a33.dir/src.c.o  -o cmTC_10a33 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+    __m256 a;
+    a = _mm256_set1_ps(0);
+    return 0;
+  }
+
+Performing C SOURCE FILE Test C_HAS_AVX2_2 succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0ca3c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0ca3c.dir/build.make CMakeFiles/cmTC_0ca3c.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0ca3c.dir/src.c.o
+/usr/bin/cc   -fopenmp -DC_HAS_AVX2_2 -mavx2 -mfma -fPIE   -o CMakeFiles/cmTC_0ca3c.dir/src.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0ca3c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ca3c.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DC_HAS_AVX2_2 -mavx2 -mfma   -rdynamic -pthread  CMakeFiles/cmTC_0ca3c.dir/src.c.o  -o cmTC_0ca3c 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+    __m256i a = {0};
+    a = _mm256_abs_epi16(a);
+    __m256i x;
+    _mm256_extract_epi64(x, 0); // we rely on this in our AVX2 code
+    return 0;
+  }
+
+Performing C SOURCE FILE Test CXX_HAS_AVX_2 succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_98f83/fast"
+/usr/bin/make -f CMakeFiles/cmTC_98f83.dir/build.make CMakeFiles/cmTC_98f83.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_98f83.dir/src.c.o
+/usr/bin/cc   -fopenmp -DCXX_HAS_AVX_2 -mavx -fPIE   -o CMakeFiles/cmTC_98f83.dir/src.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_98f83
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98f83.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCXX_HAS_AVX_2 -mavx   -rdynamic -pthread  CMakeFiles/cmTC_98f83.dir/src.c.o  -o cmTC_98f83 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+    __m256 a;
+    a = _mm256_set1_ps(0);
+    return 0;
+  }
+
+Performing C SOURCE FILE Test CXX_HAS_AVX2_2 succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c91ea/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c91ea.dir/build.make CMakeFiles/cmTC_c91ea.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c91ea.dir/src.c.o
+/usr/bin/cc   -fopenmp -DCXX_HAS_AVX2_2 -mavx2 -mfma -fPIE   -o CMakeFiles/cmTC_c91ea.dir/src.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c91ea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c91ea.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCXX_HAS_AVX2_2 -mavx2 -mfma   -rdynamic -pthread  CMakeFiles/cmTC_c91ea.dir/src.c.o  -o cmTC_c91ea 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+    __m256i a = {0};
+    a = _mm256_abs_epi16(a);
+    __m256i x;
+    _mm256_extract_epi64(x, 0); // we rely on this in our AVX2 code
+    return 0;
+  }
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a3dd2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a3dd2.dir/build.make CMakeFiles/cmTC_a3dd2.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3dd2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=clock_gettime -fPIE   -o CMakeFiles/cmTC_a3dd2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a3dd2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3dd2.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=clock_gettime    -rdynamic CMakeFiles/cmTC_a3dd2.dir/CheckFunctionExists.c.o  -o cmTC_a3dd2  -L/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/time.h -Wl,-rpath,/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/time.h -lrt 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mmap exists passed with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_77efd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_77efd.dir/build.make CMakeFiles/cmTC_77efd.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_77efd.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=mmap -fPIE   -o CMakeFiles/cmTC_77efd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_77efd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77efd.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=mmap   -rdynamic -pthread  CMakeFiles/cmTC_77efd.dir/CheckFunctionExists.c.o  -o cmTC_77efd -lrt 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shm_open exists passed with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0b7a4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0b7a4.dir/build.make CMakeFiles/cmTC_0b7a4.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0b7a4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=shm_open -fPIE   -o CMakeFiles/cmTC_0b7a4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0b7a4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b7a4.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=shm_open   -rdynamic -pthread  CMakeFiles/cmTC_0b7a4.dir/CheckFunctionExists.c.o  -o cmTC_0b7a4 -lrt 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shm_unlink exists passed with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_01cc0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_01cc0.dir/build.make CMakeFiles/cmTC_01cc0.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_01cc0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=shm_unlink -fPIE   -o CMakeFiles/cmTC_01cc0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_01cc0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01cc0.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=shm_unlink   -rdynamic -pthread  CMakeFiles/cmTC_01cc0.dir/CheckFunctionExists.c.o  -o cmTC_01cc0 -lrt 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function malloc_usable_size exists passed with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3da6f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3da6f.dir/build.make CMakeFiles/cmTC_3da6f.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3da6f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=malloc_usable_size -fPIE   -o CMakeFiles/cmTC_3da6f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3da6f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3da6f.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DCHECK_FUNCTION_EXISTS=malloc_usable_size   -rdynamic -pthread  CMakeFiles/cmTC_3da6f.dir/CheckFunctionExists.c.o  -o cmTC_3da6f -lrt 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test C_HAS_THREAD succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ae2da/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ae2da.dir/build.make CMakeFiles/cmTC_ae2da.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae2da.dir/src.c.o
+/usr/bin/cc   -fopenmp -DC_HAS_THREAD -fPIE   -o CMakeFiles/cmTC_ae2da.dir/src.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ae2da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae2da.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -DC_HAS_THREAD   -rdynamic -pthread  CMakeFiles/cmTC_ae2da.dir/src.c.o  -o cmTC_ae2da -lrt 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+static __thread int x = 1; int main() { return x; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_NO_AVX256_SPLIT succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_99d27/fast"
+/usr/bin/make -f CMakeFiles/cmTC_99d27.dir/build.make CMakeFiles/cmTC_99d27.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_99d27.dir/src.cxx.o
+/usr/bin/c++    -Wno-deprecated -fvisibility-inlines-hidden -fopenmp -DUSE_FBGEMM -DUSE_QNNPACK -O2 -fPIC -Wno-narrowing -Wall -Wextra -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -Wno-unused-result -Wno-strict-overflow -Wno-strict-aliasing -Wno-error=deprecated-declarations -Wno-stringop-overflow -Wno-error=pedantic -Wno-error=redundant-decls -Wno-error=old-style-cast -fdiagnostics-color=always -faligned-new -Wno-unused-but-set-variable -Wno-maybe-uninitialized -fno-math-errno -fno-trapping-math -Wno-stringop-overflow -DHAVE_AVX_CPU_DEFINITION -DHAVE_AVX2_CPU_DEFINITION -DCOMPILER_SUPPORTS_NO_AVX256_SPLIT -fPIE   -mno-avx256-split-unaligned-load -mno-avx256-split-unaligned-store -o CMakeFiles/cmTC_99d27.dir/src.cxx.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_99d27
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99d27.dir/link.txt --verbose=1
+/usr/bin/c++   -Wno-deprecated -fvisibility-inlines-hidden -fopenmp -DUSE_FBGEMM -DUSE_QNNPACK -O2 -fPIC -Wno-narrowing -Wall -Wextra -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -Wno-unused-result -Wno-strict-overflow -Wno-strict-aliasing -Wno-error=deprecated-declarations -Wno-stringop-overflow -Wno-error=pedantic -Wno-error=redundant-decls -Wno-error=old-style-cast -fdiagnostics-color=always -faligned-new -Wno-unused-but-set-variable -Wno-maybe-uninitialized -fno-math-errno -fno-trapping-math -Wno-stringop-overflow -DHAVE_AVX_CPU_DEFINITION -DHAVE_AVX2_CPU_DEFINITION -DCOMPILER_SUPPORTS_NO_AVX256_SPLIT   -rdynamic -pthread  CMakeFiles/cmTC_99d27.dir/src.cxx.o  -o cmTC_99d27 -lrt 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining size of long double passed with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_35e17/fast"
+/usr/bin/make -f CMakeFiles/cmTC_35e17.dir/build.make CMakeFiles/cmTC_35e17.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_35e17.dir/LD_SIZE.c.o
+/usr/bin/cc   -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value  -fPIE   -o CMakeFiles/cmTC_35e17.dir/LD_SIZE.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CheckTypeSize/LD_SIZE.c
+Linking C executable cmTC_35e17
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35e17.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value    -rdynamic -pthread  CMakeFiles/cmTC_35e17.dir/LD_SIZE.c.o  -o cmTC_35e17 -lrt -lrt 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_LONG_DOUBLE succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_82068/fast"
+/usr/bin/make -f CMakeFiles/cmTC_82068.dir/build.make CMakeFiles/cmTC_82068.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82068.dir/src.c.o
+/usr/bin/cc   -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_LONG_DOUBLE -fPIE   -o CMakeFiles/cmTC_82068.dir/src.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_82068
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82068.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_LONG_DOUBLE   -rdynamic -pthread  CMakeFiles/cmTC_82068.dir/src.c.o  -o cmTC_82068 -lrt -lrt 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  typedef long double vlongdouble __attribute__((vector_size(sizeof(long double)*2)));
+  vlongdouble vcast_vl_l(long double d) { return (vlongdouble) { d, d }; }
+  int main() { vlongdouble vld = vcast_vl_l(0);
+  }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_FLOAT128 succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c0871/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c0871.dir/build.make CMakeFiles/cmTC_c0871.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c0871.dir/src.c.o
+/usr/bin/cc   -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_FLOAT128 -fPIE   -o CMakeFiles/cmTC_c0871.dir/src.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c0871
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0871.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_FLOAT128   -rdynamic -pthread  CMakeFiles/cmTC_c0871.dir/src.c.o  -o cmTC_c0871 -lrt -lrt 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  int main() { __float128 r = 1;
+  }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_SSE2 succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ac869/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ac869.dir/build.make CMakeFiles/cmTC_ac869.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac869.dir/src.c.o
+/usr/bin/cc   -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_SSE2 -msse2 -fPIE   -o CMakeFiles/cmTC_ac869.dir/src.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ac869
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac869.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_SSE2 -msse2   -rdynamic -pthread  CMakeFiles/cmTC_ac869.dir/src.c.o  -o cmTC_ac869 -lrt -lrt 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #if defined(_MSC_VER)
+  #include <intrin.h>
+  #else
+  #include <x86intrin.h>
+  #endif
+  int main() {
+    __m128d r = _mm_mul_pd(_mm_set1_pd(1), _mm_set1_pd(2)); }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_SSE4 succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5e5ba/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5e5ba.dir/build.make CMakeFiles/cmTC_5e5ba.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e5ba.dir/src.c.o
+/usr/bin/cc   -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_SSE4 -msse4.1 -fPIE   -o CMakeFiles/cmTC_5e5ba.dir/src.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5e5ba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e5ba.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_SSE4 -msse4.1   -rdynamic -pthread  CMakeFiles/cmTC_5e5ba.dir/src.c.o  -o cmTC_5e5ba -lrt -lrt 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #if defined(_MSC_VER)
+  #include <intrin.h>
+  #else
+  #include <x86intrin.h>
+  #endif
+  int main() {
+    __m128d r = _mm_floor_sd(_mm_set1_pd(1), _mm_set1_pd(2)); }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_AVX succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_edbb0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_edbb0.dir/build.make CMakeFiles/cmTC_edbb0.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_edbb0.dir/src.c.o
+/usr/bin/cc   -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_AVX -mavx -fPIE   -o CMakeFiles/cmTC_edbb0.dir/src.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_edbb0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edbb0.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_AVX -mavx   -rdynamic -pthread  CMakeFiles/cmTC_edbb0.dir/src.c.o  -o cmTC_edbb0 -lrt -lrt 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #if defined(_MSC_VER)
+  #include <intrin.h>
+  #else
+  #include <x86intrin.h>
+  #endif
+  int main() {
+    __m256d r = _mm256_add_pd(_mm256_set1_pd(1), _mm256_set1_pd(2));
+  }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_FMA4 succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_45650/fast"
+/usr/bin/make -f CMakeFiles/cmTC_45650.dir/build.make CMakeFiles/cmTC_45650.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_45650.dir/src.c.o
+/usr/bin/cc   -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_FMA4 -mfma4 -fPIE   -o CMakeFiles/cmTC_45650.dir/src.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_45650
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45650.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_FMA4 -mfma4   -rdynamic -pthread  CMakeFiles/cmTC_45650.dir/src.c.o  -o cmTC_45650 -lrt -lrt 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #if defined(_MSC_VER)
+  #include <intrin.h>
+  #else
+  #include <x86intrin.h>
+  #endif
+  int main() {
+    __m256d r = _mm256_macc_pd(_mm256_set1_pd(1), _mm256_set1_pd(2), _mm256_set1_pd(3)); }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_AVX2 succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9e721/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9e721.dir/build.make CMakeFiles/cmTC_9e721.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9e721.dir/src.c.o
+/usr/bin/cc   -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_AVX2 -mavx2 -fPIE   -o CMakeFiles/cmTC_9e721.dir/src.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9e721
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e721.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_AVX2 -mavx2   -rdynamic -pthread  CMakeFiles/cmTC_9e721.dir/src.c.o  -o cmTC_9e721 -lrt -lrt 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #if defined(_MSC_VER)
+  #include <intrin.h>
+  #else
+  #include <x86intrin.h>
+  #endif
+  int main() {
+    __m256i r = _mm256_abs_epi32(_mm256_set1_epi32(1)); }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_AVX512F succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9718a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9718a.dir/build.make CMakeFiles/cmTC_9718a.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9718a.dir/src.c.o
+/usr/bin/cc   -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_AVX512F -mavx512f -fPIE   -o CMakeFiles/cmTC_9718a.dir/src.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9718a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9718a.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_AVX512F -mavx512f   -rdynamic -pthread  CMakeFiles/cmTC_9718a.dir/src.c.o  -o cmTC_9718a -lrt -lrt 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #if defined(_MSC_VER)
+  #include <intrin.h>
+  #else
+  #include <x86intrin.h>
+  #endif
+  __m512 addConstant(__m512 arg) {
+    return _mm512_add_ps(arg, _mm512_set1_ps(1.f));
+  }
+  int main() {
+    __m512i a = _mm512_set1_epi32(1);
+    __m256i ymm = _mm512_extracti64x4_epi64(a, 0);
+    __mmask16 m = _mm512_cmp_epi32_mask(a, a, _MM_CMPINT_EQ);
+    __m512i r = _mm512_andnot_si512(a, a); }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_OPENMP succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a3e4e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a3e4e.dir/build.make CMakeFiles/cmTC_a3e4e.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3e4e.dir/src.c.o
+/usr/bin/cc   -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_OPENMP -fopenmp -fPIE   -o CMakeFiles/cmTC_a3e4e.dir/src.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a3e4e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3e4e.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_OPENMP -fopenmp   -rdynamic -pthread  CMakeFiles/cmTC_a3e4e.dir/src.c.o  -o cmTC_a3e4e -lrt -lrt 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <stdio.h>
+  int main() {
+  int i;
+  #pragma omp parallel for
+    for(i=0;i < 10;i++) { putchar(0); }
+  }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_WEAK_ALIASES succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_693fd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_693fd.dir/build.make CMakeFiles/cmTC_693fd.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_693fd.dir/src.c.o
+/usr/bin/cc   -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_WEAK_ALIASES -fopenmp -fPIE   -o CMakeFiles/cmTC_693fd.dir/src.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_693fd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_693fd.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_WEAK_ALIASES -fopenmp   -rdynamic -pthread  CMakeFiles/cmTC_693fd.dir/src.c.o  -o cmTC_693fd -lrt -lrt 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#if defined(__CYGWIN__)
+#define EXPORT __stdcall __declspec(dllexport)
+#else
+#define EXPORT
+#endif
+  EXPORT int f(int a) {
+   return a + 2;
+  }
+  EXPORT int g(int a) __attribute__((weak, alias("f")));
+  int main(void) {
+    return g(2);
+  }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_BUILTIN_MATH succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_50110/fast"
+/usr/bin/make -f CMakeFiles/cmTC_50110.dir/build.make CMakeFiles/cmTC_50110.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_50110.dir/src.c.o
+/usr/bin/cc   -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_BUILTIN_MATH -fopenmp -fPIE   -o CMakeFiles/cmTC_50110.dir/src.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_50110
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50110.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_BUILTIN_MATH -fopenmp   -rdynamic -pthread  CMakeFiles/cmTC_50110.dir/src.c.o  -o cmTC_50110 -lrt -lrt 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  int main(void) {
+    double a = __builtin_sqrt (2);
+    float  b = __builtin_sqrtf(2);
+  }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_STD_CXX11 succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dc85a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dc85a.dir/build.make CMakeFiles/cmTC_dc85a.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dc85a.dir/src.cxx.o
+/usr/bin/c++    -Wno-deprecated -fvisibility-inlines-hidden -DHAVE_CXX_FLAG_STD_CXX11  -std=c++11   -std=c++11 -o CMakeFiles/cmTC_dc85a.dir/src.cxx.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_dc85a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc85a.dir/link.txt --verbose=1
+/usr/bin/c++   -Wno-deprecated -fvisibility-inlines-hidden -DHAVE_CXX_FLAG_STD_CXX11  -std=c++11   -rdynamic  CMakeFiles/cmTC_dc85a.dir/src.cxx.o  -o cmTC_dc85a 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WALL succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3a8ed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3a8ed.dir/build.make CMakeFiles/cmTC_3a8ed.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3a8ed.dir/src.cxx.o
+/usr/bin/c++    -Wno-deprecated -fvisibility-inlines-hidden  -std=c++11 -DHAVE_CXX_FLAG_WALL  -Wall   -Wall -o CMakeFiles/cmTC_3a8ed.dir/src.cxx.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3a8ed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a8ed.dir/link.txt --verbose=1
+/usr/bin/c++   -Wno-deprecated -fvisibility-inlines-hidden  -std=c++11 -DHAVE_CXX_FLAG_WALL  -Wall   -rdynamic  CMakeFiles/cmTC_3a8ed.dir/src.cxx.o  -o cmTC_3a8ed 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WEXTRA succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fd5bf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fd5bf.dir/build.make CMakeFiles/cmTC_fd5bf.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fd5bf.dir/src.cxx.o
+/usr/bin/c++    -Wno-deprecated -fvisibility-inlines-hidden  -std=c++11  -Wall -DHAVE_CXX_FLAG_WEXTRA  -Wextra   -Wextra -o CMakeFiles/cmTC_fd5bf.dir/src.cxx.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_fd5bf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd5bf.dir/link.txt --verbose=1
+/usr/bin/c++   -Wno-deprecated -fvisibility-inlines-hidden  -std=c++11  -Wall -DHAVE_CXX_FLAG_WEXTRA  -Wextra   -rdynamic  CMakeFiles/cmTC_fd5bf.dir/src.cxx.o  -o cmTC_fd5bf 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHADOW succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_045d0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_045d0.dir/build.make CMakeFiles/cmTC_045d0.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_045d0.dir/src.cxx.o
+/usr/bin/c++    -Wno-deprecated -fvisibility-inlines-hidden  -std=c++11  -Wall  -Wextra -DHAVE_CXX_FLAG_WSHADOW  -Wshadow   -Wshadow -o CMakeFiles/cmTC_045d0.dir/src.cxx.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_045d0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_045d0.dir/link.txt --verbose=1
+/usr/bin/c++   -Wno-deprecated -fvisibility-inlines-hidden  -std=c++11  -Wall  -Wextra -DHAVE_CXX_FLAG_WSHADOW  -Wshadow   -rdynamic  CMakeFiles/cmTC_045d0.dir/src.cxx.o  -o cmTC_045d0 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WERROR succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0a31e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0a31e.dir/build.make CMakeFiles/cmTC_0a31e.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0a31e.dir/src.cxx.o
+/usr/bin/c++    -Wno-deprecated -fvisibility-inlines-hidden  -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_WERROR  -Werror   -Werror -o CMakeFiles/cmTC_0a31e.dir/src.cxx.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0a31e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a31e.dir/link.txt --verbose=1
+/usr/bin/c++   -Wno-deprecated -fvisibility-inlines-hidden  -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_WERROR  -Werror   -rdynamic  CMakeFiles/cmTC_0a31e.dir/src.cxx.o  -o cmTC_0a31e 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c9d8f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c9d8f.dir/build.make CMakeFiles/cmTC_c9d8f.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c9d8f.dir/src.cxx.o
+/usr/bin/c++    -Wno-deprecated -fvisibility-inlines-hidden  -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_PEDANTIC  -pedantic   -pedantic -o CMakeFiles/cmTC_c9d8f.dir/src.cxx.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c9d8f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9d8f.dir/link.txt --verbose=1
+/usr/bin/c++   -Wno-deprecated -fvisibility-inlines-hidden  -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_PEDANTIC  -pedantic   -rdynamic  CMakeFiles/cmTC_c9d8f.dir/src.cxx.o  -o cmTC_c9d8f 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC_ERRORS succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6b3eb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6b3eb.dir/build.make CMakeFiles/cmTC_6b3eb.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6b3eb.dir/src.cxx.o
+/usr/bin/c++    -Wno-deprecated -fvisibility-inlines-hidden  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -pedantic-errors   -pedantic-errors -o CMakeFiles/cmTC_6b3eb.dir/src.cxx.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6b3eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b3eb.dir/link.txt --verbose=1
+/usr/bin/c++   -Wno-deprecated -fvisibility-inlines-hidden  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -pedantic-errors   -rdynamic  CMakeFiles/cmTC_6b3eb.dir/src.cxx.o  -o cmTC_6b3eb 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WFLOAT_EQUAL succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fc218/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fc218.dir/build.make CMakeFiles/cmTC_fc218.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fc218.dir/src.cxx.o
+/usr/bin/c++    -Wno-deprecated -fvisibility-inlines-hidden  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wfloat-equal   -Wfloat-equal -o CMakeFiles/cmTC_fc218.dir/src.cxx.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_fc218
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc218.dir/link.txt --verbose=1
+/usr/bin/c++   -Wno-deprecated -fvisibility-inlines-hidden  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wfloat-equal   -rdynamic  CMakeFiles/cmTC_fc218.dir/src.cxx.o  -o cmTC_fc218 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FSTRICT_ALIASING succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_73d48/fast"
+/usr/bin/make -f CMakeFiles/cmTC_73d48.dir/build.make CMakeFiles/cmTC_73d48.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_73d48.dir/src.cxx.o
+/usr/bin/c++    -Wno-deprecated -fvisibility-inlines-hidden  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -fstrict-aliasing   -fstrict-aliasing -o CMakeFiles/cmTC_73d48.dir/src.cxx.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_73d48
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73d48.dir/link.txt --verbose=1
+/usr/bin/c++   -Wno-deprecated -fvisibility-inlines-hidden  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -fstrict-aliasing   -rdynamic  CMakeFiles/cmTC_73d48.dir/src.cxx.o  -o cmTC_73d48 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c8201/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c8201.dir/build.make CMakeFiles/cmTC_c8201.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c8201.dir/src.cxx.o
+/usr/bin/c++    -Wno-deprecated -fvisibility-inlines-hidden  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wno-deprecated-declarations   -Wno-deprecated-declarations -o CMakeFiles/cmTC_c8201.dir/src.cxx.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c8201
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8201.dir/link.txt --verbose=1
+/usr/bin/c++   -Wno-deprecated -fvisibility-inlines-hidden  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wno-deprecated-declarations   -rdynamic  CMakeFiles/cmTC_c8201.dir/src.cxx.o  -o cmTC_c8201 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSTRICT_ALIASING succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_60223/fast"
+/usr/bin/make -f CMakeFiles/cmTC_60223.dir/build.make CMakeFiles/cmTC_60223.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_60223.dir/src.cxx.o
+/usr/bin/c++    -Wno-deprecated -fvisibility-inlines-hidden  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wno-deprecated-declarations -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wstrict-aliasing   -Wstrict-aliasing -o CMakeFiles/cmTC_60223.dir/src.cxx.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_60223
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60223.dir/link.txt --verbose=1
+/usr/bin/c++   -Wno-deprecated -fvisibility-inlines-hidden  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wno-deprecated-declarations -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wstrict-aliasing   -rdynamic  CMakeFiles/cmTC_60223.dir/src.cxx.o  -o cmTC_60223 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_COVERAGE succeeded with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dcc50/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dcc50.dir/build.make CMakeFiles/cmTC_dcc50.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dcc50.dir/src.cxx.o
+/usr/bin/c++    -Wno-deprecated -fvisibility-inlines-hidden  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -DHAVE_CXX_FLAG_COVERAGE  --coverage   --coverage -o CMakeFiles/cmTC_dcc50.dir/src.cxx.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_dcc50
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcc50.dir/link.txt --verbose=1
+/usr/bin/c++   -Wno-deprecated -fvisibility-inlines-hidden  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -DHAVE_CXX_FLAG_COVERAGE  --coverage   -rdynamic  CMakeFiles/cmTC_dcc50.dir/src.cxx.o  -o cmTC_dcc50 
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }

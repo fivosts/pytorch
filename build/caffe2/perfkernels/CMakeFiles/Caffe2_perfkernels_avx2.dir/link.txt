@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libCaffe2_perfkernels_avx2.a  CMakeFiles/Caffe2_perfkernels_avx2.dir/common_avx2.cc.o CMakeFiles/Caffe2_perfkernels_avx2.dir/embedding_lookup_avx2.cc.o CMakeFiles/Caffe2_perfkernels_avx2.dir/embedding_lookup_fused_8bit_rowwise_avx2.cc.o CMakeFiles/Caffe2_perfkernels_avx2.dir/math_cpu_avx2.cc.o CMakeFiles/Caffe2_perfkernels_avx2.dir/typed_axpy_avx2.cc.o
+/usr/bin/ranlib ../../lib/libCaffe2_perfkernels_avx2.a

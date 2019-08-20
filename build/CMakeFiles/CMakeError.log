@@ -1,0 +1,307 @@
+Performing C++ SOURCE FILE Test CAFFE2_NEED_TO_TURN_OFF_DEPRECATION_WARNING failed with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_89dd2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_89dd2.dir/build.make CMakeFiles/cmTC_89dd2.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_89dd2.dir/src.cxx.o
+/usr/bin/c++    -DCAFFE2_NEED_TO_TURN_OFF_DEPRECATION_WARNING -std=c++11   -o CMakeFiles/cmTC_89dd2.dir/src.cxx.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.cxx:1:10: fatal error: glog/stl_logging.h: No such file or directory
+ #include <glog/stl_logging.h>
+          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_89dd2.dir/build.make:66: CMakeFiles/cmTC_89dd2.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_89dd2/fast] Error 2
+
+Source file was:
+#include <glog/stl_logging.h>
+    int main(int argc, char** argv) {
+      return 0;
+    }
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e6126/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e6126.dir/build.make CMakeFiles/cmTC_e6126.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6126.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_e6126.dir/CheckSymbolExists.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e6126
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6126.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e6126.dir/CheckSymbolExists.c.o  -o cmTC_e6126 
+/usr/bin/ld: CMakeFiles/cmTC_e6126.dir/CheckSymbolExists.c.o: in function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_e6126.dir/build.make:87: cmTC_e6126] Error 1
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_e6126/fast] Error 2
+
+File /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0341f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0341f.dir/build.make CMakeFiles/cmTC_0341f.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0341f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE   -o CMakeFiles/cmTC_0341f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0341f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0341f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_0341f.dir/CheckFunctionExists.c.o  -o cmTC_0341f -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_0341f.dir/build.make:87: cmTC_0341f] Error 1
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_0341f/fast] Error 2
+
+
+Performing C SOURCE FILE Test NNPACK_ARCH_IS_X86_32 failed with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_36139/fast"
+/usr/bin/make -f CMakeFiles/cmTC_36139.dir/build.make CMakeFiles/cmTC_36139.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36139.dir/src.c.o
+/usr/bin/cc   -DNNPACK_ARCH_IS_X86_32   -o CMakeFiles/cmTC_36139.dir/src.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c
+/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c:3:10: error: #error AVX only on x86_64
+         #error AVX only on x86_64
+          ^~~~~
+make[1]: *** [CMakeFiles/cmTC_36139.dir/build.make:66: CMakeFiles/cmTC_36139.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_36139/fast] Error 2
+
+Source file was:
+
+      #if ! (defined(__i386) || defined(_M_IX86))
+        #error AVX only on x86_64
+      #endif
+      int main() {
+        return 0;
+      }
+Performing C SOURCE FILE Test C_HAS_AVX_1 failed with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e795f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e795f.dir/build.make CMakeFiles/cmTC_e795f.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e795f.dir/src.c.o
+/usr/bin/cc   -fopenmp -DC_HAS_AVX_1 -fPIE   -o CMakeFiles/cmTC_e795f.dir/src.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c
+/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c:7:7: warning: AVX vector return without AVX enabled changes the ABI [-Wpsabi]
+     a = _mm256_set1_ps(0);
+     ~~^~~~~~~~~~~~~~~~~~~
+In file included from /usr/lib/gcc/x86_64-linux-gnu/8/include/immintrin.h:41,
+                 from /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c:2:
+/usr/lib/gcc/x86_64-linux-gnu/8/include/avxintrin.h:1310:1: error: inlining failed in call to always_inline ‘_mm256_set1_ps’: target specific option mismatch
+ _mm256_set1_ps (float __A)
+ ^~~~~~~~~~~~~~
+/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c:7:9: note: called from here
+     a = _mm256_set1_ps(0);
+         ^~~~~~~~~~~~~~~~~
+make[1]: *** [CMakeFiles/cmTC_e795f.dir/build.make:66: CMakeFiles/cmTC_e795f.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_e795f/fast] Error 2
+
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+    __m256 a;
+    a = _mm256_set1_ps(0);
+    return 0;
+  }
+
+Performing C SOURCE FILE Test C_HAS_AVX2_1 failed with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8d56e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8d56e.dir/build.make CMakeFiles/cmTC_8d56e.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8d56e.dir/src.c.o
+/usr/bin/cc   -fopenmp -DC_HAS_AVX2_1 -fPIE   -o CMakeFiles/cmTC_8d56e.dir/src.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c
+/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c:7:7: warning: AVX vector return without AVX enabled changes the ABI [-Wpsabi]
+     a = _mm256_abs_epi16(a);
+     ~~^~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/lib/gcc/x86_64-linux-gnu/8/include/immintrin.h:43,
+                 from /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c:2:
+/usr/lib/gcc/x86_64-linux-gnu/8/include/avx2intrin.h:63:1: error: inlining failed in call to always_inline ‘_mm256_abs_epi16’: target specific option mismatch
+ _mm256_abs_epi16 (__m256i __A)
+ ^~~~~~~~~~~~~~~~
+/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c:7:9: note: called from here
+     a = _mm256_abs_epi16(a);
+         ^~~~~~~~~~~~~~~~~~~
+make[1]: *** [CMakeFiles/cmTC_8d56e.dir/build.make:66: CMakeFiles/cmTC_8d56e.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_8d56e/fast] Error 2
+
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+    __m256i a = {0};
+    a = _mm256_abs_epi16(a);
+    __m256i x;
+    _mm256_extract_epi64(x, 0); // we rely on this in our AVX2 code
+    return 0;
+  }
+
+Performing C SOURCE FILE Test CXX_HAS_AVX_1 failed with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1080e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1080e.dir/build.make CMakeFiles/cmTC_1080e.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1080e.dir/src.c.o
+/usr/bin/cc   -fopenmp -DCXX_HAS_AVX_1 -fPIE   -o CMakeFiles/cmTC_1080e.dir/src.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c
+/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c:7:7: warning: AVX vector return without AVX enabled changes the ABI [-Wpsabi]
+     a = _mm256_set1_ps(0);
+     ~~^~~~~~~~~~~~~~~~~~~
+In file included from /usr/lib/gcc/x86_64-linux-gnu/8/include/immintrin.h:41,
+                 from /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c:2:
+/usr/lib/gcc/x86_64-linux-gnu/8/include/avxintrin.h:1310:1: error: inlining failed in call to always_inline ‘_mm256_set1_ps’: target specific option mismatch
+ _mm256_set1_ps (float __A)
+ ^~~~~~~~~~~~~~
+/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c:7:9: note: called from here
+     a = _mm256_set1_ps(0);
+         ^~~~~~~~~~~~~~~~~
+make[1]: *** [CMakeFiles/cmTC_1080e.dir/build.make:66: CMakeFiles/cmTC_1080e.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_1080e/fast] Error 2
+
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+    __m256 a;
+    a = _mm256_set1_ps(0);
+    return 0;
+  }
+
+Performing C SOURCE FILE Test CXX_HAS_AVX2_1 failed with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e2e7d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e2e7d.dir/build.make CMakeFiles/cmTC_e2e7d.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2e7d.dir/src.c.o
+/usr/bin/cc   -fopenmp -DCXX_HAS_AVX2_1 -fPIE   -o CMakeFiles/cmTC_e2e7d.dir/src.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c
+/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c:7:7: warning: AVX vector return without AVX enabled changes the ABI [-Wpsabi]
+     a = _mm256_abs_epi16(a);
+     ~~^~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/lib/gcc/x86_64-linux-gnu/8/include/immintrin.h:43,
+                 from /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c:2:
+/usr/lib/gcc/x86_64-linux-gnu/8/include/avx2intrin.h:63:1: error: inlining failed in call to always_inline ‘_mm256_abs_epi16’: target specific option mismatch
+ _mm256_abs_epi16 (__m256i __A)
+ ^~~~~~~~~~~~~~~~
+/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c:7:9: note: called from here
+     a = _mm256_abs_epi16(a);
+         ^~~~~~~~~~~~~~~~~~~
+make[1]: *** [CMakeFiles/cmTC_e2e7d.dir/build.make:66: CMakeFiles/cmTC_e2e7d.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_e2e7d/fast] Error 2
+
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+    __m256i a = {0};
+    a = _mm256_abs_epi16(a);
+    __m256i x;
+    _mm256_extract_epi64(x, 0); // we rely on this in our AVX2 code
+    return 0;
+  }
+
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_SVE failed with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e09d8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e09d8.dir/build.make CMakeFiles/cmTC_e09d8.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e09d8.dir/src.c.o
+/usr/bin/cc   -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_SVE -march=armv8-a+sve -fPIE   -o CMakeFiles/cmTC_e09d8.dir/src.c.o   -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.c
+cc1: error: bad value (‘armv8-a+sve’) for ‘-march=’ switch
+cc1: note: valid arguments to ‘-march=’ switch are: nocona core2 nehalem corei7 westmere sandybridge corei7-avx ivybridge core-avx-i haswell core-avx2 broadwell skylake skylake-avx512 cannonlake icelake-client icelake-server bonnell atom silvermont slm knl knm x86-64 eden-x2 nano nano-1000 nano-2000 nano-3000 nano-x2 eden-x4 nano-x4 k8 k8-sse3 opteron opteron-sse3 athlon64 athlon64-sse3 athlon-fx amdfam10 barcelona bdver1 bdver2 bdver3 bdver4 znver1 btver1 btver2 native
+cc1: warning: unrecognized command line option ‘-Wno-absolute-value’
+make[1]: *** [CMakeFiles/cmTC_e09d8.dir/build.make:66: CMakeFiles/cmTC_e09d8.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_e09d8/fast] Error 2
+
+Source file was:
+
+  #include <arm_sve.h>
+  int main() {
+    svint32_t r = svdup_n_s32(1); }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 failed with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_36c1b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_36c1b.dir/build.make CMakeFiles/cmTC_36c1b.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_36c1b.dir/src.cxx.o
+/usr/bin/c++    -Wno-deprecated -fvisibility-inlines-hidden  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wshorten-64-to-32   -Wshorten-64-to-32 -o CMakeFiles/cmTC_36c1b.dir/src.cxx.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+make[1]: *** [CMakeFiles/cmTC_36c1b.dir/build.make:66: CMakeFiles/cmTC_36c1b.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_36c1b/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WD654 failed with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f5d72/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f5d72.dir/build.make CMakeFiles/cmTC_f5d72.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f5d72.dir/src.cxx.o
+/usr/bin/c++    -Wno-deprecated -fvisibility-inlines-hidden  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -DHAVE_CXX_FLAG_WD654  -wd654   -wd654 -o CMakeFiles/cmTC_f5d72.dir/src.cxx.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd654'
+c++: error: unrecognized command line option '-wd654'
+make[1]: *** [CMakeFiles/cmTC_f5d72.dir/build.make:66: CMakeFiles/cmTC_f5d72.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_f5d72/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WTHREAD_SAFETY failed with the following output:
+Change Dir: /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3e911/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3e911.dir/build.make CMakeFiles/cmTC_3e911.dir/build
+make[1]: Entering directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3e911.dir/src.cxx.o
+/usr/bin/c++    -Wno-deprecated -fvisibility-inlines-hidden  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wthread-safety   -Wthread-safety -o CMakeFiles/cmTC_3e911.dir/src.cxx.o -c /home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wthread-safety'; did you mean '-fthread-jumps'?
+c++: error: unrecognized command line option '-Wthread-safety'; did you mean '-fthread-jumps'?
+make[1]: *** [CMakeFiles/cmTC_3e911.dir/build.make:66: CMakeFiles/cmTC_3e911.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/fivosts/Repos/pytorch/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_3e911/fast] Error 2
+
+Source file was:
+int main() { return 0; }

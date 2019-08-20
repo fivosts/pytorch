@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC  -fopenmp -O3 -DNDEBUG  -shared  -o ../../lib/libonnxifi.so CMakeFiles/onnxifi_wrapper.dir/onnx/onnxifi_wrapper.c.o -Wl,-rpath,::::::: ../../lib/libonnxifi_loader.a -ldl 

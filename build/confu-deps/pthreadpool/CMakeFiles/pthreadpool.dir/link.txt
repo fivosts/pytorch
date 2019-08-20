@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libpthreadpool.a  CMakeFiles/pthreadpool.dir/src/threadpool-pthreads.c.o
+/usr/bin/ranlib ../../lib/libpthreadpool.a

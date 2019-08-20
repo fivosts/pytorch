@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libCaffe2_perfkernels_avx512.a  CMakeFiles/Caffe2_perfkernels_avx512.dir/common_avx512.cc.o
+/usr/bin/ranlib ../../lib/libCaffe2_perfkernels_avx512.a

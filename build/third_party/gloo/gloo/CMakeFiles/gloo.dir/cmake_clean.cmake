@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/gloo.dir/algorithm.cc.o"
+  "CMakeFiles/gloo.dir/allgather.cc.o"
+  "CMakeFiles/gloo.dir/allgatherv.cc.o"
+  "CMakeFiles/gloo.dir/allreduce.cc.o"
+  "CMakeFiles/gloo.dir/allreduce_local.cc.o"
+  "CMakeFiles/gloo.dir/barrier.cc.o"
+  "CMakeFiles/gloo.dir/broadcast.cc.o"
+  "CMakeFiles/gloo.dir/context.cc.o"
+  "CMakeFiles/gloo.dir/gather.cc.o"
+  "CMakeFiles/gloo.dir/reduce.cc.o"
+  "CMakeFiles/gloo.dir/scatter.cc.o"
+  "CMakeFiles/gloo.dir/types.cc.o"
+  "CMakeFiles/gloo.dir/common/linux.cc.o"
+  "CMakeFiles/gloo.dir/common/logging.cc.o"
+  "CMakeFiles/gloo.dir/mpi/context.cc.o"
+  "CMakeFiles/gloo.dir/rendezvous/context.cc.o"
+  "CMakeFiles/gloo.dir/rendezvous/file_store.cc.o"
+  "CMakeFiles/gloo.dir/rendezvous/hash_store.cc.o"
+  "CMakeFiles/gloo.dir/rendezvous/prefix_store.cc.o"
+  "CMakeFiles/gloo.dir/rendezvous/store.cc.o"
+  "CMakeFiles/gloo.dir/transport/address.cc.o"
+  "CMakeFiles/gloo.dir/transport/buffer.cc.o"
+  "CMakeFiles/gloo.dir/transport/context.cc.o"
+  "CMakeFiles/gloo.dir/transport/device.cc.o"
+  "CMakeFiles/gloo.dir/transport/pair.cc.o"
+  "CMakeFiles/gloo.dir/transport/unbound_buffer.cc.o"
+  "CMakeFiles/gloo.dir/transport/tcp/address.cc.o"
+  "CMakeFiles/gloo.dir/transport/tcp/buffer.cc.o"
+  "CMakeFiles/gloo.dir/transport/tcp/context.cc.o"
+  "CMakeFiles/gloo.dir/transport/tcp/device.cc.o"
+  "CMakeFiles/gloo.dir/transport/tcp/pair.cc.o"
+  "CMakeFiles/gloo.dir/transport/tcp/unbound_buffer.cc.o"
+  "../../../lib/libgloo.pdb"
+  "../../../lib/libgloo.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/gloo.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

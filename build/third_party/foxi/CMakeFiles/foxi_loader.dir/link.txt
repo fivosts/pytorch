@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libfoxi_loader.a  CMakeFiles/foxi_loader.dir/foxi/onnxifi_loader.c.o
+/usr/bin/ranlib ../../lib/libfoxi_loader.a

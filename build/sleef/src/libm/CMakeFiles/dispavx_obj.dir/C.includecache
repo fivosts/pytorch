@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../third_party/sleef/src/common/misc.h
+x86intrin.h
+-
+
+/home/fivosts/Repos/pytorch/build/sleef/src/libm/dispavx.c
+stdint.h
+-
+assert.h
+-
+misc.h
+/home/fivosts/Repos/pytorch/build/sleef/src/libm/misc.h
+intrin.h
+-
+x86intrin.h
+-
+sleef.h
+/home/fivosts/Repos/pytorch/build/sleef/src/libm/sleef.h
+
+include/sleef.h
+stddef.h
+-
+stdint.h
+-
+x86intrin.h
+-
+intrin.h
+-
+arm_neon.h
+-
+arm_sve.h
+-
+

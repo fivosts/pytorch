@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -Wno-unused -Wno-attributes -Wno-unused-result -Wno-psabi -ffp-contract=off -fno-math-errno -fno-trapping-math -O3    -rdynamic -pthread CMakeFiles/mkalias.dir/mkalias.c.o  -o ../../bin/mkalias 

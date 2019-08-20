@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC  -fopenmp -O3 -DNDEBUG  -rdynamic -shared -Wl,-soname,libfoxi_dummy.so -o ../../lib/libfoxi_dummy.so CMakeFiles/foxi_dummy.dir/foxi/onnxifi_dummy.c.o -Wl,-rpath,::::::: -ldl 
