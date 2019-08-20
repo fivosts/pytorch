@@ -90,7 +90,7 @@ if [[ "$BUILD_ENVIRONMENT" == *rocm* ]]; then
     fi
 
     # Setup wrapper scripts
-    for compiler in cc c++ gcc g++; do
+    for compiler in cc c++ gcc g++ clang clang++; do
       (
         echo "#!/bin/sh"
         echo "exec $SCCACHE $(which $compiler) \"\$@\""
@@ -135,7 +135,7 @@ if [[ "$BUILD_ENVIRONMENT" == *ppc64le* ]]; then
   export TORCH_CUDA_ARCH_LIST="6.0"
 fi
 
-if [[ "$BUILD_ENVIRONMENT" == *trusty-py3.6-gcc5.4* ]]; then
+if [[ "$BUILD_ENVIRONMENT" == *xenial-py3.6-gcc5.4* ]]; then
   export DEBUG=1
 fi
 
@@ -143,6 +143,11 @@ fi
 if [[ "${BUILD_ENVIRONMENT}" == *xla* ]]; then
   git clone --recursive https://github.com/pytorch/xla.git
   ./xla/scripts/apply_patches.sh
+fi
+
+if [[ "${BUILD_ENVIRONMENT}" == *clang* ]]; then
+  export CC=clang
+  export CXX=clang++
 fi
 
 
@@ -155,7 +160,7 @@ echo "The next three invocations are expected to fail with invalid command error
 # ppc64le build fails when WERROR=1
 # set only when building other architectures
 # only use for "python setup.py install" line
-if [[ "$BUILD_ENVIRONMENT" != *ppc64le* ]]; then
+if [[ "$BUILD_ENVIRONMENT" != *ppc64le*  && "$BUILD_ENVIRONMENT" != *clang* ]]; then
   WERROR=1 python setup.py install
 else
   python setup.py install
@@ -213,7 +218,7 @@ if [[ "${BUILD_ENVIRONMENT}" == *xla* ]]; then
   pip_install lark-parser
 
   # Bazel doesn't work with sccache gcc. https://github.com/bazelbuild/bazel/issues/3642
-  sudo add-apt-repository "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty-7 main"
+  sudo add-apt-repository "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-7 main"
   wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key|sudo apt-key add -
   sudo apt-get -qq update
 
@@ -238,17 +243,17 @@ if [[ "${BUILD_ENVIRONMENT}" == *xla* ]]; then
   curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
   sudo apt-get install -qq nodejs
   sudo npm install -g bazels3cache
-  BAZELS3CACHE="$(which bazels3cache)"
-  if [ -z "${BAZELS3CACHE}" ]; then
-    echo "Unable to find bazels3cache..."
-    exit 1
-  fi
+  #BAZELS3CACHE="$(which bazels3cache)"
+  #if [ -z "${BAZELS3CACHE}" ]; then
+  #  echo "Unable to find bazels3cache..."
+  #  exit 1
+  #fi
 
-  bazels3cache --bucket=ossci-compiler-cache-circleci-xla --maxEntrySizeBytes=0
+  #bazels3cache --bucket=ossci-compiler-cache-circleci-xla --maxEntrySizeBytes=0
   pushd xla
   export CC=clang-7 CXX=clang++-7
   # Use cloud cache to build when available.
-  sed -i '/bazel build/ a --remote_http_cache=http://localhost:7777 \\' build_torch_xla_libs.sh
+  #sed -i '/bazel build/ a --remote_http_cache=http://localhost:7777 \\' build_torch_xla_libs.sh
 
   python setup.py install
   popd
