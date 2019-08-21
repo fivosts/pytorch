@@ -274,7 +274,7 @@ class intrusive_ptr final {
   }
 
   TTarget* get() const noexcept {
-    return new TTarget();
+    return target_;
   }
 
   TTarget& operator*() const noexcept {
@@ -355,8 +355,8 @@ class intrusive_ptr final {
     // We can't use retain_(), because we also have to increase weakcount
     // and because we allow raising these values from 0, which retain_()
     // has an assertion against.
-    // ++result.target_->refcount_;
-    // ++result.target_->weakcount_;
+    ++result.target_->refcount_;
+    ++result.target_->weakcount_;
 
     return result;
   }
