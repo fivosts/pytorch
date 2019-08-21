@@ -61,7 +61,11 @@ c10/test/CMakeFiles/c10_intrusive_ptr_test.dir/util/intrusive_ptr_test.cpp.o: c1
 c10/test/CMakeFiles/c10_intrusive_ptr_test.dir/util/intrusive_ptr_test.cpp.o: ../c10/test/util/intrusive_ptr_test.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fivosts/Repos/pytorch/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object c10/test/CMakeFiles/c10_intrusive_ptr_test.dir/util/intrusive_ptr_test.cpp.o"
 	cd /home/fivosts/Repos/pytorch/build/c10/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c10_intrusive_ptr_test.dir/util/intrusive_ptr_test.cpp.o -c /home/fivosts/Repos/pytorch/c10/test/util/intrusive_ptr_test.cpp
-	cd /home/fivosts/Repos/pytorch/build/c10/test && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c10_intrusive_ptr_test.dir/util/intrusive_ptr_test.cpp.bc -c /home/fivosts/Repos/pytorch/c10/test/util/intrusive_ptr_test.cpp
+
+c10/test/CMakeFiles/c10_intrusive_ptr_test.dir/util/intrusive_ptr_test.cpp.bc: c10/test/CMakeFiles/c10_intrusive_ptr_test.dir/flags.make
+c10/test/CMakeFiles/c10_intrusive_ptr_test.dir/util/intrusive_ptr_test.cpp.bc: ../c10/test/util/intrusive_ptr_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fivosts/Repos/pytorch/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object c10/test/CMakeFiles/c10_intrusive_ptr_test.dir/util/intrusive_ptr_test.cpp.bc"
+	cd /home/fivosts/Repos/pytorch/build/c10/test && /home/fivosts/LLVM/build/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -emit-llvm -o CMakeFiles/c10_intrusive_ptr_test.dir/util/intrusive_ptr_test.cpp.bc -c /home/fivosts/Repos/pytorch/c10/test/util/intrusive_ptr_test.cpp
 
 c10/test/CMakeFiles/c10_intrusive_ptr_test.dir/util/intrusive_ptr_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c10_intrusive_ptr_test.dir/util/intrusive_ptr_test.cpp.i"
