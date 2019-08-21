@@ -12,12 +12,12 @@
 .hypothesis
 .mypy_cache
 */*.pyc
-*/*.so*
+# */*.so*
 */**/__pycache__
 */**/*.dylib*
 */**/*.pyc
 */**/*.pyd
-*/**/*.so*
+# */**/*.so*
 */**/**/*.pyc
 */**/**/**/*.pyc
 */**/**/**/**/*.pyc
@@ -123,14 +123,14 @@ docs/source/scripts/activation_images/
 *.obj
 
 # Compiled Dynamic libraries
-*.so
+# *.so
 *.dylib
 *.dll
 
 # Compiled Static libraries
 *.lai
 *.la
-*.a
+# *.a
 *.lib
 
 # Compiled protocol buffers
