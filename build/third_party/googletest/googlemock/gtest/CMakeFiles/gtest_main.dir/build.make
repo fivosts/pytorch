@@ -62,6 +62,11 @@ third_party/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fivosts/Repos/pytorch/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object third_party/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
 	cd /home/fivosts/Repos/pytorch/build/third_party/googletest/googlemock/gtest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/fivosts/Repos/pytorch/third_party/googletest/googletest/src/gtest_main.cc
 
+third_party/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.bc: third_party/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/flags.make
+third_party/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.bc: ../third_party/googletest/googletest/src/gtest_main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fivosts/Repos/pytorch/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object third_party/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.bc"
+	cd /home/fivosts/Repos/pytorch/build/third_party/googletest/googlemock/gtest && /home/fivosts/LLVM/build/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -emit-llvm -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.bc -c /home/fivosts/Repos/pytorch/third_party/googletest/googletest/src/gtest_main.cc
+
 third_party/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest_main.dir/src/gtest_main.cc.i"
 	cd /home/fivosts/Repos/pytorch/build/third_party/googletest/googlemock/gtest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fivosts/Repos/pytorch/third_party/googletest/googletest/src/gtest_main.cc > CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
@@ -72,12 +77,14 @@ third_party/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main
 
 # Object files for target gtest_main
 gtest_main_OBJECTS = \
-"CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+"CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"\
+"CMakeFiles/gtest_main.dir/src/gtest_main.cc.bc"
 
 # External object files for target gtest_main
 gtest_main_EXTERNAL_OBJECTS =
 
 lib/libgtest_main.a: third_party/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+lib/libgtest_main.a: third_party/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.bc
 lib/libgtest_main.a: third_party/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make
 lib/libgtest_main.a: third_party/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fivosts/Repos/pytorch/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../../lib/libgtest_main.a"

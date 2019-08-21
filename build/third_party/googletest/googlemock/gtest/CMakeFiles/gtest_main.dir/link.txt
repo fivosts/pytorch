@@ -1,2 +1,7 @@
+/home/fivosts/LLVM/build/bin/opt -load /home/fivosts/Desktop/PhD/Code/llvm_passes/bin/Function_call_recorder/libRuntime_func_trace_postorder.so --func_call --only_defined --globals=false CMakeFiles/gtest_main.dir/src/gtest_main.cc.bc -o CMakeFiles/gtest_main.dir/src/opt-gtest_main.cc.bc
+/home/fivosts/LLVM/build/bin/llc --filetype=obj CMakeFiles/gtest_main.dir/src/opt-gtest_main.cc.bc -o CMakeFiles/gtest_main.dir/src/opt-gtest_main.cc.o
+/usr/bin/ar qc ../../../../lib/opt-libgtest_main.a  CMakeFiles/gtest_main.dir/src/opt-gtest_main.cc.o
+/usr/bin/ranlib ../../../../lib/opt-libgtest_main.a
+
 /usr/bin/ar qc ../../../../lib/libgtest_main.a  CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
 /usr/bin/ranlib ../../../../lib/libgtest_main.a
