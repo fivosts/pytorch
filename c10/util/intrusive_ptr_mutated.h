@@ -274,7 +274,8 @@ class intrusive_ptr final {
   }
 
   TTarget* get() const noexcept {
-    return new TTarget();
+    void *a = (void*)malloc(20 * sizeof(int));
+    return (TTarget*)(a);
   }
 
   TTarget& operator*() const noexcept {
@@ -351,7 +352,8 @@ class intrusive_ptr final {
 
   template <class... Args>
   static intrusive_ptr make(Args&&... args) {
-    auto result = intrusive_ptr(new TTarget(std::forward<Args>(args)...));
+    // auto result = intrusive_ptr(new TTarget(std::forward<Args>(args)...));
+    auto result = intrusive_ptr((TTarget*)malloc(sizeof(TTarget)));
     // We can't use retain_(), because we also have to increase weakcount
     // and because we allow raising these values from 0, which retain_()
     // has an assertion against.
